@@ -6,7 +6,7 @@
 #    By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/03 19:18:10 by fbulut            #+#    #+#              #
-#    Updated: 2022/01/13 19:53:36 by fbulut           ###   ########.fr        #
+#    Updated: 2022/01/15 09:25:02 by fbulut           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -78,4 +78,4 @@ bonus : $(OBJS) $(B_obj)
 	ar -rcs $(NAME) $(OBJS) $(B_obj)
 re:fclean $(NAME)
 
-.PHONY: clean fclean all re bonus
+.PHONY: fclean all re bonus clean
