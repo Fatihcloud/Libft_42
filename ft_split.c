@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/12 18:45:02 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/15 09:58:31 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 14:28:20 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,3 +65,14 @@ char	**ft_split(char const *s, char c)
 	str[count] = NULL;
 	return (str);
 }
+
+// int main ()
+// {
+// 	char *str;
+// 	char str1;
+// 	str = "___xxx_fatih_xxx___";
+// 	str1 = '_';
+// 	printf("%s", *ft_split(str, str1));
+// 	printf("%s", *(ft_split(str, str1) + 1));
+// 	printf("%s", *(ft_split(str, str1) + 2));
+// }

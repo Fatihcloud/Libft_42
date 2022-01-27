@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/12 18:44:35 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/12 18:44:36 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 09:43:13 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,16 @@ t_list	*ft_lstnew(void *content)
 	src -> next = NULL;
 	return (src);
 }
+// void a(char *str)
+// {
+// 	printf("%s", str);
+// }
+
+// int main()
+// {
+// 	t_list *list;
+	
+// 	list = ft_lstnew("anan ");
+// 	ft_lstadd_back(&list,ft_lstnew(("kardeşim")));
+// 	ft_lstiter(list,(void(*)(void *))a);
+// }

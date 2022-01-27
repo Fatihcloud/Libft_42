@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/03 16:16:26 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/08 20:32:00 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 11:08:13 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,11 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
+
+// int main()
+// {
+// 	int a;
+	
+// 	a = 'a';
+// 	printf("%d",ft_isascii(a));
+// }

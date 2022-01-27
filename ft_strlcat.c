@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 19:00:09 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/07 13:12:51 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 18:37:49 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,7 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 		dest[dsize] = '\0';
 	return (i + ft_strlen(src));
 }
+// int main()
+// {
+	
+// }

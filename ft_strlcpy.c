@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 18:53:23 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/07 13:12:53 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 19:39:16 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,11 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (srcsize);
 }
+
+// int	main()
+// {
+// 	char src[50] = "merhaba ben fatih bey ";
+// 	char dst[100] = "gotunu sikim jbhfdıhvdsbfıhfsvjhsdv jfsdhbjhsfdbsdf";
+	 
+// 	printf("%zu %s", ft_strlcpy(dst, src, 15), dst);
+// }

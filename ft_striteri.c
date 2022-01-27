@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/09 13:54:21 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/12 10:05:23 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 19:57:01 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,14 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
+
+// void a(unsigned int i, char *anne)
+// {
+// 	printf("%d. harf : %c\n",i,*anne);
+// }
+
+// int main ()
+// {
+// 	char *str = "baba";
+// 	ft_striteri(str, a);
+// }

@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 11:23:44 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/07 13:12:17 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 16:40:03 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,10 @@ void	ft_bzero(void *s, size_t n)
 {
 	ft_memset(s, 0, n);
 }
+
+// int main()
+// {
+// 	int mark[5] = {10, 5, 10, 20, 10};
+// 	ft_bzero(&mark, 8);
+// 	printf("%d %d %d %d" ,mark[0], mark[1], mark[2], mark[3]);
+// }

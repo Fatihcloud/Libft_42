@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/09 01:57:22 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/12 10:02:42 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 20:09:27 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,15 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
+// char a(unsigned int baba, char anne)
+// {
+// 	printf("%d. harf : %c\n",baba,anne);
+// }
+
+// int main()
+// {
+// 	char const *str;
+// 	str = "annan kardesim";
+	
+// 	ft_strmapi(str,a);
+// }

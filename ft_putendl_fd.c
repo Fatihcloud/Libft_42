@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/09 01:54:42 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/09 01:54:45 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 13:19:29 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,8 @@ void	ft_putendl_fd(char const *s, int fd)
 		ft_putchar_fd('\n', fd);
 	}
 }
+
+// int main()
+// {
+// 	ft_putendl_fd("baba", 1);
+// }

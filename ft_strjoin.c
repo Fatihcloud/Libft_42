@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/09 01:56:15 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/13 16:39:36 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 16:00:38 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,10 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	str[i] = '\0';
 	return (str);
 }
+
+// int main ()
+// {
+// 	char str[] = "anne ";
+// 	char str1[] = "baba";
+// 	printf("%s", ft_strjoin(str ,str1));
+// }

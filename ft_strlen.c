@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/03 18:43:31 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/08 20:32:34 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 19:51:03 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,11 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
+
+// int main()
+// {
+// 	char *str;
+	
+// 	str = "baba";
+// 	printf("%zu",ft_strlen(str));
+// }

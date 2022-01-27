@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 17:06:12 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/07 13:12:57 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 20:15:15 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,4 +22,9 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	while (i < n - 1 && s1[i] != '\0' && s2[i] != '\0' && s1[i] == s2[i])
 		i++;
 	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
+}
+
+int main ()
+{
+	
 }

@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/03 16:16:28 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/09 03:46:19 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 11:12:38 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,11 @@ int	ft_isdigit(int str)
 		return (1);
 	return (0);
 }
+
+// int main()
+// {
+// 	int a;
+	
+// 	a = '5';
+// 	printf("%d", ft_isdigit(a)); 
+// }

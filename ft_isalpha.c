@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/03 16:16:24 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/07 16:03:37 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 11:08:27 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,11 @@ int	ft_isalpha(int str)
 		return (1);
 	return (0);
 }
+
+// int main ()
+// {
+// 	int a;
+
+// 	a = 'a';
+// 	printf("%d", ft_isalpha(a));
+// }

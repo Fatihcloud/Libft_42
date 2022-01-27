@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 11:22:08 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/09 03:58:41 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 11:15:53 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,11 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
+
+// int main()
+// {
+// 	int a;
+
+// 	a = 'a';
+// 	printf("%d", ft_isprint(a));
+// }

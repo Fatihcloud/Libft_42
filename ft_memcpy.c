@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/05 20:35:08 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/13 16:38:13 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 12:22:49 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,10 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
+
+// int main()
+// {
+// 	char str1[] = "merhaba";
+// 	char str2[] = "baba";
+// 	printf("%s",ft_memcpy(str1, str2, 3));
+// }

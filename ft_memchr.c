@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 19:11:14 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/07 13:12:33 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 12:02:43 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,11 @@ void	*ft_memchr(const void *s, int c, size_t n)
 		return ((void *)s + i);
 	return (NULL);
 }
+
+// int main ()
+// {
+// 	char *str;
+// 	str = "babana vuruyum";
+// 	int c = ' ';
+// 	printf("%s", ft_memchr(str, c, ft_strlen(str)));
+// }

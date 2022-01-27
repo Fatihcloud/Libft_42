@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/08 20:41:57 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/12 16:37:30 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 13:50:03 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,3 +68,7 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	return (str);
 }
+// int main ()
+// {
+// 	printf("%s", ft_itoa(5));
+// }

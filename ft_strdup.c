@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 19:02:45 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/07 13:12:50 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 14:49:50 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,10 @@ char	*ft_strdup(const char *s1)
 	str[i] = '\0';
 	return (str);
 }
+
+// int main ()
+// {
+// 	char *str;
+// 	str = "baba merhaba";
+// 	printf("%s",ft_strdup(str));
+// }

@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/05 16:23:09 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/14 20:28:13 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 13:47:08 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,8 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putchar_fd(n % 10 + '0', fd);
 	}
 }
+
+// int main()
+// {
+// 	ft_putnbr_fd(53, 1);
+// }

@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/05 16:19:06 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/07 13:12:42 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/27 13:07:23 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,8 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
+
+// int main()
+// {
+// 	ft_putchar_fd('c',1);	
+// }

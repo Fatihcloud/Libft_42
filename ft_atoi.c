@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 16:27:13 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/12 16:09:35 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/23 14:42:59 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,3 +40,12 @@ int	ft_atoi(const char *str)
 	}
 	return (number);
 }
+
+// int	main()
+// {
+// 	char s[] = "    -275468";
+// 	int sayi;
+// 	sayi = ft_atoi(s);
+// 	printf("%d", sayi);
+	
+// }
