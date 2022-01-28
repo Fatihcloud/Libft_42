@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/05 13:04:14 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/09 04:02:03 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/28 19:08:47 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,10 @@ int	ft_tolower(int c)
 		return (c + 32);
 	return (c);
 }
+
+// int main ()
+// {
+// 	int a;
+// 	a = 'A';
+// 	printf("%d", ft_tolower(a));
+// }

@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 11:22:18 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/12 09:43:39 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/28 18:56:41 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,12 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)&s[0]);
 	return (NULL);
 }
+
+// int main ()
+// {
+// 	const char *str;
+// 	int b;
+// 	str = "anne ba aa";
+// 	b = 'b';
+// 	printf("%s", ft_strrchr(str, b));
+// }

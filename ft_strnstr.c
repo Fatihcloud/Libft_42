@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 18:17:56 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/07 13:12:59 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/28 18:52:37 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,12 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
+
+// int main()
+// {
+// 	const char *str;
+// 	const char *str1;
+// 	str = "anne lütfen bana yardım et";
+// 	str1 = "bana";
+// 	printf("%s", ft_strnstr(str, str1, 29));
+// }

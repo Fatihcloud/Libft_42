@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/09 01:58:56 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/09 01:59:18 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/28 19:01:05 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,3 +49,12 @@ char	*ft_strtrim(char const *s1, char const *set)
 	str[k] = '\0';
 	return (str);
 }
+
+// int main ()
+// {
+// 	const char *str;
+// 	const char *str1;
+// 	str = "___xxx_fatih_xxx___";
+// 	str1 = "_";
+// 	printf("%s", ft_strtrim(str, str1));
+// }
