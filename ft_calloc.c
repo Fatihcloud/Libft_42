@@ -6,7 +6,7 @@
 /*   By: fbulut <fbulut@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/05 10:46:05 by fbulut            #+#    #+#             */
-/*   Updated: 2022/01/23 18:14:31 by fbulut           ###   ########.fr       */
+/*   Updated: 2022/01/29 12:53:15 by fbulut           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,3 +22,12 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(p, (count * size));
 	return (p);
 }
+
+// int main ()
+// {
+// 	size_t a;
+// 	size_t b;
+// 	a = 2;
+// 	b = 8;
+// 	printf("%s", ft_calloc(a,b));
+// }
